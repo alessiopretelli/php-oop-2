@@ -1,0 +1,11 @@
+Utenti
+
+id			numero		incremental		NOT NULL		PRIMARY_KEY UNIQUE
+nome			stringa		varchar(25)		NOT NULL
+cognome			stringa		varchar(25)		NOT NULL
+sesso			stringa		varchar(1)		NOT NULL
+eta			numero		TINYINT			NOT NULL
+indirizzo		stringa		varchar(50)		NULL			UNIQUE
+numero_telefono		stringa		varchar(15)		NULL			UNIQUE
+codice_fiscale		stringa		varchar(25)		NOT NULL		UNIQUE
+password		stringa		varchar(50)		NOT NULL
